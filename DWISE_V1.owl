@@ -1,0 +1,3465 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2015/0/untitled-ontology-11"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/admin/ontologies/2015/0/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BMI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Appointment_Keeping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Change_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Getting_Adequate_Sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Glucose_Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Healthy_Diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Medication_Adherence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Modify_High_Sugar_Diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Stop_Negative_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Stop_Smoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier_to_Stress_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior_Recommendation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPG_recommendation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change_Then_to_Stay__the_Same"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cholestrol_Ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_Parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decisional_Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decisional_Balance_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diabetes_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exercise_Related_Self_Efficacy_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feedback_After_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goal_Setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Good_Prognostic_Factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HDL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HgA1C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LDL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative_Target_Behavior_for_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Barrier_to_Change_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Decisional_Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Decisional_Balance_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Feedback_After_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Goal_Related_to_Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Physical_Activity_Decisional_Balance_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Readiness_Assessment_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire_for_Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Self_Efficacy_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prognostic_Factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Barrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Barrier_to_Change_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Decisional_Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Decisional_Balance_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Feedback_After_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Goal_Setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider_Self_Efficacy_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Readiness_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Readiness_Assessment_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recommendation_for_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recommendation_for_patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recommendations_Relevant_to_Targets_for_Glycemic_control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reminder_Schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self_Efficacy_Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self_Efficacy_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stay_the_Same_Then_to_Change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Appointment_Keeping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Foot_care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Getting_Adequate_Sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Glucose_Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Healthy_Diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Medical_Adherence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_High_Sugar_Diet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_Negative_Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_Smoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stress_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Fear_of_Injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Issues_With_Social_Influence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Motivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Travel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies_to_Overcome_Weather_Conditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Target_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Target_Behaviour_for_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triglyceride"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_BMI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_HDL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_HgA1C_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_LDL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_barrier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_cholesterol_ratio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_decisional_balance_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_diabetes_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_patient_readiness_assessment_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_patient_self_efficacy_result_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_physical_activity_barrier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_physical_activity_decisional_balance_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_poor_prognostic_factor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_provider_decisional_balance_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_provider_readiness_assessment_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_provider_self_efficacy_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_readiness_assessment_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_self_efficacy_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_strategies_to_overcome_physical_activity_barriers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_triglyceride_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_CPG_recommendation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_barrier_to_physical_activity_questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_decisional_balance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_patient_decisional_balance_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_patient_feedback_on_physical_activity_assessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_patient_physical_activity_goal_setting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_patient_readiness_assessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_patient_self_efficacy_assessment_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_provider_decisional_balance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_provider_readiness_assessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_provider_self_efficacy_assessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_readiness_assessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_reminder_schedule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_followed_by_self-efficacy_assessment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Action_oriented_step"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Are_you_interested_in_recommending_that_patient_achieve_the_target_A1C"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Are_you_interested_in_starting_or_stopping_behaviour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Are_you_prepared_to_recommend_that_patient_achieve_target_A1C_in_your_next_encounter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Are_you_ready_to_change_now"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Attainable_step"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Do_you_consider_it_a_problem_that_the_patient_is_not_achieving_target_A1C"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Does_it_cause_you_concern_that_patient&apos;s_A1C_is_high"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Does_it_cause_you_distress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Exercise_prevents_me_from_spending_time_with_my_friends"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Exercise_puts_an_extra_burden_on_my_significant_other"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Exercising_puts_me_in_a_better_mood_for_the_rest_of_the_day"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_A1C_less_than_equal_to_6.5_when_the_patient_has_multiple_comorbidities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_has_a_history_not_following_your_past_recommendations"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_is_distressed_by_somehing_else"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_lacks_motivation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_less_equal_to_less_than_6.5_when_you_are_pressed_for_time_in_your_clinic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#How_confident_are_you_that_physical_activity_will_improve_your_diabetes_control"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#How_many_times_will_you_work_on_yoru_goal_each_day"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_am_afraid_I_might_injure_myself_or_have_a_heart_attack"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_am_embarrased_about_how_will_I_look_when_I_exercise_with_others"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_am_getting_older_too_much_exercise_can_be_risky"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_am_just_tired_after_work_to_get_any_exercise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_am_not_good_enough_at_any_physical_activity_to_make_it_fun"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_am_too_tired_during_the_week_and_I_need_the_weekened_to_catch_up_on_my_rest"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_do_not_get_enough_sleep_as_it_is._I_just_couldn&apos;t_get_up_early_or_stay_up_late_to_get_some_exercise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_don&apos;t_get_enough_exercise_because_I_have_never_learned_the_skills_for_any_sort"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_don&apos;t_have_access_to_jogging_trails,_swimming_pools,_bike_paths_etc."/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_feel_uncomfortable_or_embarrased_in_exercise_clothes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_have_been_thinking_about_getting_more_exercise_but_I_just_can&apos;t_seem_to_get_started"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_know_of_too_many_people_who_have_hurt_themselves_by_overdoing_it_with_exercise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_really_can&apos;t_see_learning_a_new_sport_at_my_age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_want_to_get_more_exercise_but_I_just_can&apos;t_seem_to_make_myself_stick_to_anything"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_would_feel_embarrassed_if_people_saw_me_exercising"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_would_feel_less_stressed_if_I_exercised_regularly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_would_feel_more_comfortable_with_my_body_if_exercised_regularly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#I_would_have_more_energy_for_my_family_and_friends_if_I_exercise_regularly"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#If_we_had_exercise_facilities_and_showers_at_work_then_I_would_be_more_likely_to_exercise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Is_behaviour_a_problem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#It_is_easier_for_me_to_find_excuses_not_to_exercise_than_to_go_out_to_do_something"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#It_is_just_too_expensive._You_have_to_take_a_class_or_join_a_club_or_buy_the_right_equipment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Measurable_step"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#My_day_is_so_busy_now_I_just_don&apos;t_think_I_can_make_the_time_to_include_physical_activity_in_my_regular_schedule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#My_free_times_during_the_day_are_too_short_to_include_exercise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#My_usual_social_activities_with_family_or_friends_do_not_include_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Non_of_my_family_members_or_friends_like_to_do_anything_active_so_I_don&apos;t_have_a_chance_to_exercise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_will_achieve_better_control_of_blood_glucose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_will_experience_an_improved_quality_of_life"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_will_gain_a_sense_of_achievement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_will_have_reduce_risk_of_comorbidities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_will_live_longer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Physical_activity_takes_too_much_time_away_from_other_committments_e.g._time,_work,_family_etc."/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Realistic_step"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Regular_exercise_would_help_me_have_a_more_positive_outlook_on_life"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Specific_step"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#There_is_too_much_I_would_have_to_learn_to_exercise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Timely_step"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#What_days_would_you_be_reminded_to_work_on_your_goal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_clinical_profile_parameters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_decisional_balance_statements"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_patient_readiness_assessment_statement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_patient_self_efficacy_questions_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_provider_decisional_balance_statements"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_provider_readiness_assessment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_provider_self_efficacy_questions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_readiness_assessment_statements"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_reminder_schedule_setting"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_self_efficacy_statements"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_smart_goals_steps"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#how_confident_are_you_that_you_can_do_the_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#what_times_would_you_like_to_be_reminded_to_work_on_your_goal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1.2_mmol_per_L_or_more"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#150-199_mg-per_dl_i.e.-borderline_high"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#200-499_mg_per_dl_i.e._high"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3.3_mmol_per_L_or_less"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4.5_or_less"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#500_mg_per_dl_or_more_i.e._very_high"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Add_physical_activity_to_your_daily_routine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ambivalent_for_physical_activity_and_cons_are_more_than_pros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ambivalent_for_physical_activity_and_pro_are_more_than_cons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMI_between_18.50-24.99_i.e._patient_is_of_normal_weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMI_between_30.00-34.99_i.e._patient_is_class_I_obese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMI_between_35.00-39.99_i.e._patient_is_class_II_obese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMI_is_more_than_equal_to_25.00_and_less_than_equal_to_29.99_i.e._patient_is_pre-obese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMI_less_than_18.50_i.e._patient_is_underweight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMI_more_than_equal_to_40.00_i.e._patient_is_class_III_obese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bring_a_small_tape_recorder_and_your_favourite_aerobic_exercise_tape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Choose_activities_involving_minimum_risk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Convince_yourself_that_physical_activity_will_increase_your_energy_level"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Develop_a_set_of_regular_activities_that_are_always_available_regardless_of_weather-indoor_cycling,_aerobic_dance,_indoor_swimming_calisthenics,_stair_climbing,_rope_skipping,_mail_walking,_dancing,_gymnasium_games,_etc."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Develop_new_friendships_with_physically_active_people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Encourage_exercise_facilities_to_provide_child_care_services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Exercise_with_friends_who_are_at_the_same_skill_level_as_you_are"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Exercise_with_the_kids-go_for_a_walk_together,_play_tag_or_other_running_games,_get_an_aerobic_dance_or_exercise_tape_for_kids-there_are_several_on_the_market,_and_exercise_together._You_can_spent_time_together_and_still_get_your_exercise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Explain_your_interest_in__physical_activity_to_friends_and_family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Family_obligations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fear_of_injury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Find_a_friend_who_is_willing_to_teach_you_some_new_skills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_self_efficacy_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hire_a_babysitter_and_look_at_the_cost_as_a_worthwhile_investment_in_your_physical_and_mental_health"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Identify_available_time_slots"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Identify_inexpensive,_convenient_resources_avaulable_in_your_community-community_education_programs,_park_and_recreation_programs,_worksite_programs_etc."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Invite_a_friend_to_exercise_with_you_on_regular_basis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Invite_friends_and_family_to_exercise_with_you"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Join_an_exercise_group_or_class"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Join_the_YMCA_or_YWCA_-_ask_about_reciprocal_membership_agreement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jump_rope,_do_calisthenic,_ride_a_stationary_bicycle_or_use_other_home_gymnasium_equipment_while_the_kids_are_busy_playing_or_sleeping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lack_of_energy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lack_of_motivation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lack_of_resources"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lack_of_skill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lack_of_time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Learn_how_to_exercise_appropriately"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Learn_how_to_warm_up_and_cool_down_to_avoid_injury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Look_on_outdoor_activities_that_depend_on_weather_conditions-cross_country_skiing,_outdoor_swimming,_outdoor_tennis,_etc._as_bonuses-extra_activities_possible_when_weather_and_circumstances_permit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_self_efficacy_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Make_time_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medication_adherence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_self_efficacy_for_physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Not_ready_for_physical_activity_and_cons_are_more_than_pros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Not_ready_for_physical_activity_and_pros_are_more_than_cons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patient_is_Ambivalent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patient_is_Not_Ready"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patient_is_Ready"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plan_ahead"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provider_has_high_self_efficacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provider_has_low_self_efficacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provider_has_moderate_self_efficacy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provider_is_Ambivalent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provider_is_Not_Ready"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provider_is_Ready"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Put_a_jump_rope_in_your_suitcase_and_jump_rope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ready_for_physical_activity_and_cons_are_more_than_pros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ready_for_physical_activity_and_pros_are_more_than_cons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recommendation_1_for_target_A1C_less_than_equal_to_6.5_percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recommendation_2_for_target_A1C-7.1-8.5_percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schedule_physical_activity_when_you_feel_energetic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Select_acitivities_requiring_minimal_time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Select_activities_requiring_no_new_skills,_such_as_walking,_climbing_stairs_or_jogging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Select_activities_that_require_minimum_facilities_or_equipment,_such_as_walking,_jogging,_jumping_rope_or_calisthenics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smoking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Social_influence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_a_class_to_develop_new_skills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trade_babysitting_time_with_a_friend,_neighbor_or_a_family_member_who_also_has_small_children"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Travel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Try_to_exercise_when_the_kids_are_not_around,_e.g.,_during_school_hours_or_thier_nap_time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visit_the_local_shopping_mall_and_walk_for_half_an_hour_or_more"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Walk_the_halls_and_climb_the_stairs_in_hotels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weather_conditions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#between_6.0_and_less_than_equal_to_7_percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#between_7.1-8.5_percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#checking_blood_sugar_levels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#extensive_coronary_artery_disease_at_high_risk_of_ischemic_events"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#foot_care"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#healthy_diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#high_level_of_functional_dependency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#high_sugar_diet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#history_of_recurrent_severe_hypoglycemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hypoglycemia_unawareness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keeping_up_appointments"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#less_than_1.2_mmol_per_L"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#less_than_150_mg_per_dl_i.e._normal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#less_than_6.5_percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#limited_life_expectancy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#longstanding_diabetes_for_whom_it_is_difficult_to_achieve_A1C_less_than_7.0_despite_effective_doses_of_multiple_antihyperglycemic_agents_including_intensified_basal-bolus_insulin_therapy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#missing_appoitments_with_healthcare_providers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#more_than_3.3_mmol_per_L"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#more_than_4.5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#multiple_comorbidities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#physical_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#type_1_diabetes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#type_2_diabetes"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BMI"/>
+        <Class IRI="#Clinical_Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Appointment_Keeping"/>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Getting_Adequate_Sleep"/>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Glucose_Monitoring"/>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Healthy_Diet"/>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Medication_Adherence"/>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Modify_High_Sugar_Diet"/>
+        <Class IRI="#Barrier_to_Stop_Negative_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+        <Class IRI="#Patient_Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Stop_Negative_Behaviour"/>
+        <Class IRI="#Patient_Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Stop_Smoking"/>
+        <Class IRI="#Barrier_to_Stop_Negative_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrier_to_Stress_Management"/>
+        <Class IRI="#Barrier_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change_Then_to_Stay__the_Same"/>
+        <Class IRI="#Patient_Physical_Activity_Decisional_Balance_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholestrol_Ratio"/>
+        <Class IRI="#Clinical_Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diabetes_Type"/>
+        <Class IRI="#Clinical_Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exercise_Related_Self_Efficacy_Result"/>
+        <Class IRI="#Patient_Self_Efficacy_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Good_Prognostic_Factors"/>
+        <Class IRI="#Prognostic_Factors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HDL"/>
+        <Class IRI="#Clinical_Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HgA1C"/>
+        <Class IRI="#Clinical_Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LDL"/>
+        <Class IRI="#Clinical_Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_Target_Behavior_for_Patient"/>
+        <Class IRI="#Target_Behaviour_for_Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Barrier"/>
+        <Class IRI="#Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Barrier_to_Change_Questionnaire"/>
+        <Class IRI="#Barrier_to_Change_Questionnaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+        <Class IRI="#Patient_Barrier_to_Change_Questionnaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Decisional_Balance"/>
+        <Class IRI="#Decisional_Balance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+        <Class IRI="#Patient_Decisional_Balance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Decisional_Balance_Result"/>
+        <Class IRI="#Decisional_Balance_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Feedback_After_Assessment"/>
+        <Class IRI="#Feedback_After_Assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+        <Class IRI="#Patient_Feedback_After_Assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Goal_Related_to_Physical_Activity"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Goal_Setting"/>
+        <Class IRI="#Goal_Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Physical_Activity_Decisional_Balance_Result"/>
+        <Class IRI="#Patient_Decisional_Balance_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+        <Class IRI="#Readiness_Assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Readiness_Assessment_Result"/>
+        <Class IRI="#Readiness_Assessment_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire"/>
+        <Class IRI="#Self_Efficacy_Questionnaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire_for_Physical_Activity"/>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Self_Efficacy_Result"/>
+        <Class IRI="#Self_Efficacy_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <Class IRI="#Prognostic_Factors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+        <Class IRI="#Target_Behaviour_for_Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+        <Class IRI="#Readiness_Assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Barrier"/>
+        <Class IRI="#Barrier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Barrier_to_Change_Questionnaire"/>
+        <Class IRI="#Barrier_to_Change_Questionnaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Decisional_Balance"/>
+        <Class IRI="#Decisional_Balance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Decisional_Balance_Result"/>
+        <Class IRI="#Decisional_Balance_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Feedback_After_Assessment"/>
+        <Class IRI="#Feedback_After_Assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Goal_Setting"/>
+        <Class IRI="#Goal_Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+        <Class IRI="#Readiness_Assessment_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+        <Class IRI="#Self_Efficacy_Questionnaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider_Self_Efficacy_Result"/>
+        <Class IRI="#Self_Efficacy_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recommendation_for_Provider"/>
+        <Class IRI="#CPG_recommendation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recommendation_for_patient"/>
+        <Class IRI="#CPG_recommendation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recommendations_Relevant_to_Targets_for_Glycemic_control"/>
+        <Class IRI="#Recommendation_for_Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stay_the_Same_Then_to_Change"/>
+        <Class IRI="#Patient_Physical_Activity_Decisional_Balance_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Appointment_Keeping"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Foot_care"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Getting_Adequate_Sleep"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Glucose_Monitoring"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Healthy_Diet"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Medical_Adherence"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_High_Sugar_Diet"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_Negative_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_Negative_Behaviour"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_Smoking"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stop_Negative_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Stress_Management"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Positive_Behaviour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Fear_of_Injury"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Issues_With_Social_Influence"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Energy"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Motivation"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Resources"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Skill"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Time"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Travel"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies_to_Overcome_Weather_Conditions"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Target_Behaviour_for_Patient"/>
+        <Class IRI="#Target_Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triglyceride"/>
+        <Class IRI="#Clinical_Parameter"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#HDL"/>
+        <NamedIndividual IRI="#1.2_mmol_per_L_or_more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Triglyceride"/>
+        <NamedIndividual IRI="#150-199_mg-per_dl_i.e.-borderline_high"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Triglyceride"/>
+        <NamedIndividual IRI="#200-499_mg_per_dl_i.e._high"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LDL"/>
+        <NamedIndividual IRI="#3.3_mmol_per_L_or_less"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cholestrol_Ratio"/>
+        <NamedIndividual IRI="#4.5_or_less"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Triglyceride"/>
+        <NamedIndividual IRI="#500_mg_per_dl_or_more_i.e._very_high"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Time"/>
+        <NamedIndividual IRI="#Add_physical_activity_to_your_daily_routine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+        <NamedIndividual IRI="#Ambivalent_for_physical_activity_and_cons_are_more_than_pros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+        <NamedIndividual IRI="#Ambivalent_for_physical_activity_and_pro_are_more_than_cons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BMI"/>
+        <NamedIndividual IRI="#BMI_between_18.50-24.99_i.e._patient_is_of_normal_weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BMI"/>
+        <NamedIndividual IRI="#BMI_between_30.00-34.99_i.e._patient_is_class_I_obese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BMI"/>
+        <NamedIndividual IRI="#BMI_between_35.00-39.99_i.e._patient_is_class_II_obese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BMI"/>
+        <NamedIndividual IRI="#BMI_is_more_than_equal_to_25.00_and_less_than_equal_to_29.99_i.e._patient_is_pre-obese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BMI"/>
+        <NamedIndividual IRI="#BMI_less_than_18.50_i.e._patient_is_underweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BMI"/>
+        <NamedIndividual IRI="#BMI_more_than_equal_to_40.00_i.e._patient_is_class_III_obese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Travel"/>
+        <NamedIndividual IRI="#Bring_a_small_tape_recorder_and_your_favourite_aerobic_exercise_tape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Fear_of_Injury"/>
+        <NamedIndividual IRI="#Choose_activities_involving_minimum_risk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Energy"/>
+        <NamedIndividual IRI="#Convince_yourself_that_physical_activity_will_increase_your_energy_level"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Weather_Conditions"/>
+        <NamedIndividual IRI="#Develop_a_set_of_regular_activities_that_are_always_available_regardless_of_weather-indoor_cycling,_aerobic_dance,_indoor_swimming_calisthenics,_stair_climbing,_rope_skipping,_mail_walking,_dancing,_gymnasium_games,_etc."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Issues_With_Social_Influence"/>
+        <NamedIndividual IRI="#Develop_new_friendships_with_physically_active_people"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+        <NamedIndividual IRI="#Encourage_exercise_facilities_to_provide_child_care_services"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Skill"/>
+        <NamedIndividual IRI="#Exercise_with_friends_who_are_at_the_same_skill_level_as_you_are"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+        <NamedIndividual IRI="#Exercise_with_the_kids-go_for_a_walk_together,_play_tag_or_other_running_games,_get_an_aerobic_dance_or_exercise_tape_for_kids-there_are_several_on_the_market,_and_exercise_together._You_can_spent_time_together_and_still_get_your_exercise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Issues_With_Social_Influence"/>
+        <NamedIndividual IRI="#Explain_your_interest_in__physical_activity_to_friends_and_family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Family_obligations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Fear_of_injury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Skill"/>
+        <NamedIndividual IRI="#Find_a_friend_who_is_willing_to_teach_you_some_new_skills"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise_Related_Self_Efficacy_Result"/>
+        <NamedIndividual IRI="#High_self_efficacy_for_physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+        <NamedIndividual IRI="#Hire_a_babysitter_and_look_at_the_cost_as_a_worthwhile_investment_in_your_physical_and_mental_health"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Time"/>
+        <NamedIndividual IRI="#Identify_available_time_slots"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Resources"/>
+        <NamedIndividual IRI="#Identify_inexpensive,_convenient_resources_avaulable_in_your_community-community_education_programs,_park_and_recreation_programs,_worksite_programs_etc."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Motivation"/>
+        <NamedIndividual IRI="#Invite_a_friend_to_exercise_with_you_on_regular_basis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Issues_With_Social_Influence"/>
+        <NamedIndividual IRI="#Invite_friends_and_family_to_exercise_with_you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Motivation"/>
+        <NamedIndividual IRI="#Join_an_exercise_group_or_class"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Travel"/>
+        <NamedIndividual IRI="#Join_the_YMCA_or_YWCA_-_ask_about_reciprocal_membership_agreement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+        <NamedIndividual IRI="#Jump_rope,_do_calisthenic,_ride_a_stationary_bicycle_or_use_other_home_gymnasium_equipment_while_the_kids_are_busy_playing_or_sleeping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Lack_of_energy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Lack_of_motivation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Lack_of_resources"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Lack_of_skill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Lack_of_time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Fear_of_Injury"/>
+        <NamedIndividual IRI="#Learn_how_to_exercise_appropriately"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Fear_of_Injury"/>
+        <NamedIndividual IRI="#Learn_how_to_warm_up_and_cool_down_to_avoid_injury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Weather_Conditions"/>
+        <NamedIndividual IRI="#Look_on_outdoor_activities_that_depend_on_weather_conditions-cross_country_skiing,_outdoor_swimming,_outdoor_tennis,_etc._as_bonuses-extra_activities_possible_when_weather_and_circumstances_permit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise_Related_Self_Efficacy_Result"/>
+        <NamedIndividual IRI="#Low_self_efficacy_for_physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Time"/>
+        <NamedIndividual IRI="#Make_time_for_physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#Medication_adherence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise_Related_Self_Efficacy_Result"/>
+        <NamedIndividual IRI="#Moderate_self_efficacy_for_physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+        <NamedIndividual IRI="#Not_ready_for_physical_activity_and_cons_are_more_than_pros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+        <NamedIndividual IRI="#Not_ready_for_physical_activity_and_pros_are_more_than_cons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Readiness_Assessment_Result"/>
+        <NamedIndividual IRI="#Patient_is_Ambivalent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Readiness_Assessment_Result"/>
+        <NamedIndividual IRI="#Patient_is_Not_Ready"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Readiness_Assessment_Result"/>
+        <NamedIndividual IRI="#Patient_is_Ready"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Motivation"/>
+        <NamedIndividual IRI="#Plan_ahead"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provider_Self_Efficacy_Result"/>
+        <NamedIndividual IRI="#Provider_has_high_self_efficacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provider_Self_Efficacy_Result"/>
+        <NamedIndividual IRI="#Provider_has_low_self_efficacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provider_Self_Efficacy_Result"/>
+        <NamedIndividual IRI="#Provider_has_moderate_self_efficacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+        <NamedIndividual IRI="#Provider_is_Ambivalent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+        <NamedIndividual IRI="#Provider_is_Not_Ready"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+        <NamedIndividual IRI="#Provider_is_Ready"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Travel"/>
+        <NamedIndividual IRI="#Put_a_jump_rope_in_your_suitcase_and_jump_rope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+        <NamedIndividual IRI="#Ready_for_physical_activity_and_cons_are_more_than_pros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+        <NamedIndividual IRI="#Ready_for_physical_activity_and_pros_are_more_than_cons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recommendations_Relevant_to_Targets_for_Glycemic_control"/>
+        <NamedIndividual IRI="#Recommendation_1_for_target_A1C_less_than_equal_to_6.5_percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recommendations_Relevant_to_Targets_for_Glycemic_control"/>
+        <NamedIndividual IRI="#Recommendation_2_for_target_A1C-7.1-8.5_percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Energy"/>
+        <NamedIndividual IRI="#Schedule_physical_activity_when_you_feel_energetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Time"/>
+        <NamedIndividual IRI="#Select_acitivities_requiring_minimal_time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Skill"/>
+        <NamedIndividual IRI="#Select_activities_requiring_no_new_skills,_such_as_walking,_climbing_stairs_or_jogging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Resources"/>
+        <NamedIndividual IRI="#Select_activities_that_require_minimum_facilities_or_equipment,_such_as_walking,_jogging,_jumping_rope_or_calisthenics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#Smoking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Social_influence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Lack_of_Skill"/>
+        <NamedIndividual IRI="#Take_a_class_to_develop_new_skills"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+        <NamedIndividual IRI="#Trade_babysitting_time_with_a_friend,_neighbor_or_a_family_member_who_also_has_small_children"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Travel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Startegies_to_Overcome_Family_Obligations"/>
+        <NamedIndividual IRI="#Try_to_exercise_when_the_kids_are_not_around,_e.g.,_during_school_hours_or_thier_nap_time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Travel"/>
+        <NamedIndividual IRI="#Visit_the_local_shopping_mall_and_walk_for_half_an_hour_or_more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategies_to_Overcome_Travel"/>
+        <NamedIndividual IRI="#Walk_the_halls_and_climb_the_stairs_in_hotels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+        <NamedIndividual IRI="#Weather_conditions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HDL"/>
+        <NamedIndividual IRI="#between_6.0_and_less_than_equal_to_7_percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HgA1C"/>
+        <NamedIndividual IRI="#between_7.1-8.5_percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#checking_blood_sugar_levels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <NamedIndividual IRI="#extensive_coronary_artery_disease_at_high_risk_of_ischemic_events"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#foot_care"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#healthy_diet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <NamedIndividual IRI="#high_level_of_functional_dependency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#high_sugar_diet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <NamedIndividual IRI="#history_of_recurrent_severe_hypoglycemia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <NamedIndividual IRI="#hypoglycemia_unawareness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#keeping_up_appointments"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HDL"/>
+        <NamedIndividual IRI="#less_than_1.2_mmol_per_L"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Triglyceride"/>
+        <NamedIndividual IRI="#less_than_150_mg_per_dl_i.e._normal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HgA1C"/>
+        <NamedIndividual IRI="#less_than_6.5_percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <NamedIndividual IRI="#limited_life_expectancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <NamedIndividual IRI="#longstanding_diabetes_for_whom_it_is_difficult_to_achieve_A1C_less_than_7.0_despite_effective_doses_of_multiple_antihyperglycemic_agents_including_intensified_basal-bolus_insulin_therapy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#missing_appoitments_with_healthcare_providers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LDL"/>
+        <NamedIndividual IRI="#more_than_3.3_mmol_per_L"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cholestrol_Ratio"/>
+        <NamedIndividual IRI="#more_than_4.5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+        <NamedIndividual IRI="#multiple_comorbidities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive_Target_Behavior_for_Patient"/>
+        <NamedIndividual IRI="#physical_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diabetes_Type"/>
+        <NamedIndividual IRI="#type_1_diabetes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diabetes_Type"/>
+        <NamedIndividual IRI="#type_2_diabetes"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#1.2_mmol_per_L_or_more"/>
+    </DifferentIndividuals>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_BMI"/>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_HDL"/>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_HgA1C_level"/>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_LDL"/>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_cholesterol_ratio"/>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_diabetes_type"/>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_patient_readiness_assessment_result"/>
+        <ObjectProperty IRI="#has_readiness_assessment_result"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_patient_self_efficacy_result_for_physical_activity"/>
+        <ObjectProperty IRI="#has_self_efficacy_result"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_physical_activity_decisional_balance_result"/>
+        <ObjectProperty IRI="#has_decisional_balance_result"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_provider_decisional_balance_result"/>
+        <ObjectProperty IRI="#has_decisional_balance_result"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_provider_readiness_assessment_result"/>
+        <ObjectProperty IRI="#has_readiness_assessment_result"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_provider_self_efficacy_result"/>
+        <ObjectProperty IRI="#has_self_efficacy_result"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_triglyceride_level"/>
+        <ObjectProperty IRI="#has_clinical_profile_parameters"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_followed_by_patient_decisional_balance_for_physical_activity"/>
+        <ObjectProperty IRI="#is_followed_by_decisional_balance"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_followed_by_patient_readiness_assessment"/>
+        <ObjectProperty IRI="#is_followed_by_readiness_assessment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_followed_by_patient_self_efficacy_assessment_for_physical_activity"/>
+        <ObjectProperty IRI="#is_followed_by_self-efficacy_assessment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_followed_by_provider_decisional_balance"/>
+        <ObjectProperty IRI="#is_followed_by_decisional_balance"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_followed_by_provider_readiness_assessment"/>
+        <ObjectProperty IRI="#is_followed_by_readiness_assessment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_followed_by_provider_self_efficacy_assessment"/>
+        <ObjectProperty IRI="#is_followed_by_self-efficacy_assessment"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_BMI"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_HDL"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_HgA1C_level"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_LDL"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_cholesterol_ratio"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_diabetes_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_triglyceride_level"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_followed_by_barrier_to_physical_activity_questionnaire"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_BMI"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_HDL"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_HgA1C_level"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_LDL"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_barrier"/>
+        <Class IRI="#Target_Behavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_cholesterol_ratio"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_diabetes_type"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_patient_readiness_assessment_result"/>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_patient_self_efficacy_result_for_physical_activity"/>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire_for_Physical_Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_physical_activity_barrier"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_physical_activity_decisional_balance_result"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_poor_prognostic_factor"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_provider_decisional_balance_result"/>
+        <Class IRI="#Provider_Decisional_Balance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_provider_readiness_assessment_result"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_provider_self_efficacy_result"/>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_strategies_to_overcome_physical_activity_barriers"/>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_triglyceride_level"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_CPG_recommendation"/>
+        <Class IRI="#Clinical_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_barrier_to_physical_activity_questionnaire"/>
+        <Class IRI="#Patient_Physical_Activity_Decisional_Balance_Result"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_patient_decisional_balance_for_physical_activity"/>
+        <Class IRI="#Patient_Readiness_Assessment_Result"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_patient_physical_activity_goal_setting"/>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_patient_readiness_assessment"/>
+        <Class IRI="#Target_Behaviour_for_Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_patient_self_efficacy_assessment_for_physical_activity"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_provider_decisional_balance"/>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_provider_readiness_assessment"/>
+        <Class IRI="#CPG_recommendation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_provider_self_efficacy_assessment"/>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_followed_by_reminder_schedule"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_BMI"/>
+        <Class IRI="#BMI"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_HDL"/>
+        <Class IRI="#HDL"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_HgA1C_level"/>
+        <Class IRI="#HgA1C"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_LDL"/>
+        <Class IRI="#LDL"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_barrier"/>
+        <Class IRI="#Barrier_to_Change_Questionnaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_cholesterol_ratio"/>
+        <Class IRI="#Cholestrol_Ratio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_diabetes_type"/>
+        <Class IRI="#Diabetes_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_patient_readiness_assessment_result"/>
+        <Class IRI="#Patient_Readiness_Assessment_Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_patient_self_efficacy_result_for_physical_activity"/>
+        <Class IRI="#Exercise_Related_Self_Efficacy_Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_physical_activity_barrier"/>
+        <Class IRI="#Barrier_to_Start_Physical_Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_physical_activity_decisional_balance_result"/>
+        <Class IRI="#Patient_Physical_Activity_Decisional_Balance_Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_poor_prognostic_factor"/>
+        <Class IRI="#Poor_Prognostic_Factors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_provider_decisional_balance_result"/>
+        <Class IRI="#Provider_Decisional_Balance_Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_provider_readiness_assessment_result"/>
+        <Class IRI="#Provider_Readiness_Assessment_Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_provider_self_efficacy_result"/>
+        <Class IRI="#Provider_Self_Efficacy_Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_strategies_to_overcome_physical_activity_barriers"/>
+        <Class IRI="#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_triglyceride_level"/>
+        <Class IRI="#Triglyceride"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_CPG_recommendation"/>
+        <Class IRI="#CPG_recommendation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_barrier_to_physical_activity_questionnaire"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_patient_decisional_balance_for_physical_activity"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_patient_feedback_on_physical_activity_assessment"/>
+        <Class IRI="#Patient_Feedback_After_Assessment_for_Physical_Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_patient_physical_activity_goal_setting"/>
+        <Class IRI="#Patient_Goal_Related_to_Physical_Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_patient_readiness_assessment"/>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_patient_self_efficacy_assessment_for_physical_activity"/>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire_for_Physical_Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_provider_decisional_balance"/>
+        <Class IRI="#Provider_Decisional_Balance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_provider_readiness_assessment"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_provider_self_efficacy_assessment"/>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_followed_by_reminder_schedule"/>
+        <Class IRI="#Reminder_Schedule"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Action_oriented_step"/>
+        <DataProperty IRI="#has_smart_goals_steps"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Age"/>
+        <DataProperty IRI="#has_clinical_profile_parameters"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Are_you_interested_in_recommending_that_patient_achieve_the_target_A1C"/>
+        <DataProperty IRI="#has_provider_readiness_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Are_you_interested_in_starting_or_stopping_behaviour"/>
+        <DataProperty IRI="#has_patient_readiness_assessment_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Are_you_prepared_to_recommend_that_patient_achieve_target_A1C_in_your_next_encounter"/>
+        <DataProperty IRI="#has_provider_readiness_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Are_you_ready_to_change_now"/>
+        <DataProperty IRI="#has_patient_readiness_assessment_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Attainable_step"/>
+        <DataProperty IRI="#has_smart_goals_steps"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Do_you_consider_it_a_problem_that_the_patient_is_not_achieving_target_A1C"/>
+        <DataProperty IRI="#has_provider_readiness_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Does_it_cause_you_concern_that_patient&apos;s_A1C_is_high"/>
+        <DataProperty IRI="#has_provider_readiness_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Does_it_cause_you_distress"/>
+        <DataProperty IRI="#has_patient_readiness_assessment_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Exercise_prevents_me_from_spending_time_with_my_friends"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Exercise_puts_an_extra_burden_on_my_significant_other"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Exercising_puts_me_in_a_better_mood_for_the_rest_of_the_day"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Height"/>
+        <DataProperty IRI="#has_clinical_profile_parameters"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_A1C_less_than_equal_to_6.5_when_the_patient_has_multiple_comorbidities"/>
+        <DataProperty IRI="#has_provider_self_efficacy_questions"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_has_a_history_not_following_your_past_recommendations"/>
+        <DataProperty IRI="#has_provider_self_efficacy_questions"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_is_distressed_by_somehing_else"/>
+        <DataProperty IRI="#has_provider_self_efficacy_questions"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_lacks_motivation"/>
+        <DataProperty IRI="#has_provider_self_efficacy_questions"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_less_equal_to_less_than_6.5_when_you_are_pressed_for_time_in_your_clinic"/>
+        <DataProperty IRI="#has_provider_self_efficacy_questions"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#How_confident_are_you_that_physical_activity_will_improve_your_diabetes_control"/>
+        <DataProperty IRI="#has_patient_self_efficacy_questions_for_physical_activity"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#How_many_times_will_you_work_on_yoru_goal_each_day"/>
+        <DataProperty IRI="#has_reminder_schedule_setting"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_am_afraid_I_might_injure_myself_or_have_a_heart_attack"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_am_embarrased_about_how_will_I_look_when_I_exercise_with_others"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_am_getting_older_too_much_exercise_can_be_risky"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_am_just_tired_after_work_to_get_any_exercise"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_am_not_good_enough_at_any_physical_activity_to_make_it_fun"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_am_too_tired_during_the_week_and_I_need_the_weekened_to_catch_up_on_my_rest"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_do_not_get_enough_sleep_as_it_is._I_just_couldn&apos;t_get_up_early_or_stay_up_late_to_get_some_exercise"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_don&apos;t_get_enough_exercise_because_I_have_never_learned_the_skills_for_any_sort"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_don&apos;t_have_access_to_jogging_trails,_swimming_pools,_bike_paths_etc."/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_feel_uncomfortable_or_embarrased_in_exercise_clothes"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_have_been_thinking_about_getting_more_exercise_but_I_just_can&apos;t_seem_to_get_started"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_know_of_too_many_people_who_have_hurt_themselves_by_overdoing_it_with_exercise"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_really_can&apos;t_see_learning_a_new_sport_at_my_age"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_want_to_get_more_exercise_but_I_just_can&apos;t_seem_to_make_myself_stick_to_anything"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_would_feel_embarrassed_if_people_saw_me_exercising"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_would_feel_less_stressed_if_I_exercised_regularly"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_would_feel_more_comfortable_with_my_body_if_exercised_regularly"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#I_would_have_more_energy_for_my_family_and_friends_if_I_exercise_regularly"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#If_we_had_exercise_facilities_and_showers_at_work_then_I_would_be_more_likely_to_exercise"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Is_behaviour_a_problem"/>
+        <DataProperty IRI="#has_patient_readiness_assessment_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#It_is_easier_for_me_to_find_excuses_not_to_exercise_than_to_go_out_to_do_something"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#It_is_just_too_expensive._You_have_to_take_a_class_or_join_a_club_or_buy_the_right_equipment"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Measurable_step"/>
+        <DataProperty IRI="#has_smart_goals_steps"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#My_day_is_so_busy_now_I_just_don&apos;t_think_I_can_make_the_time_to_include_physical_activity_in_my_regular_schedule"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#My_free_times_during_the_day_are_too_short_to_include_exercise"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#My_usual_social_activities_with_family_or_friends_do_not_include_physical_activity"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Non_of_my_family_members_or_friends_like_to_do_anything_active_so_I_don&apos;t_have_a_chance_to_exercise"/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Patient_Name"/>
+        <DataProperty IRI="#has_clinical_profile_parameters"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Patient_will_achieve_better_control_of_blood_glucose"/>
+        <DataProperty IRI="#has_provider_decisional_balance_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Patient_will_experience_an_improved_quality_of_life"/>
+        <DataProperty IRI="#has_provider_decisional_balance_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Patient_will_gain_a_sense_of_achievement"/>
+        <DataProperty IRI="#has_provider_decisional_balance_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Patient_will_have_reduce_risk_of_comorbidities"/>
+        <DataProperty IRI="#has_provider_decisional_balance_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Patient_will_live_longer"/>
+        <DataProperty IRI="#has_provider_decisional_balance_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Physical_activity_takes_too_much_time_away_from_other_committments_e.g._time,_work,_family_etc."/>
+        <DataProperty IRI="#has_exercise_barrier_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Realistic_step"/>
+        <DataProperty IRI="#has_smart_goals_steps"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Regular_exercise_would_help_me_have_a_more_positive_outlook_on_life"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Specific_step"/>
+        <DataProperty IRI="#has_smart_goals_steps"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#There_is_too_much_I_would_have_to_learn_to_exercise"/>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Timely_step"/>
+        <DataProperty IRI="#has_smart_goals_steps"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Weight"/>
+        <DataProperty IRI="#has_clinical_profile_parameters"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#What_days_would_you_be_reminded_to_work_on_your_goal"/>
+        <DataProperty IRI="#has_reminder_schedule_setting"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_patient_exercise_decisional_balance_questionnaire_statement"/>
+        <DataProperty IRI="#has_decisional_balance_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_patient_readiness_assessment_statement"/>
+        <DataProperty IRI="#has_readiness_assessment_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_patient_self_efficacy_questions_for_physical_activity"/>
+        <DataProperty IRI="#has_self_efficacy_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_provider_decisional_balance_statements"/>
+        <DataProperty IRI="#has_decisional_balance_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_provider_readiness_assessment"/>
+        <DataProperty IRI="#has_readiness_assessment_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_provider_self_efficacy_questions"/>
+        <DataProperty IRI="#has_self_efficacy_statements"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#how_confident_are_you_that_you_can_do_the_physical_activity"/>
+        <DataProperty IRI="#has_patient_self_efficacy_questions_for_physical_activity"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#what_times_would_you_like_to_be_reminded_to_work_on_your_goal"/>
+        <DataProperty IRI="#has_reminder_schedule_setting"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Height"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Is_behaviour_a_problem"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Patient_Name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Weight"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Action_oriented_step"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Clinical_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Are_you_interested_in_recommending_that_patient_achieve_the_target_A1C"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Are_you_interested_in_starting_or_stopping_behaviour"/>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Are_you_prepared_to_recommend_that_patient_achieve_target_A1C_in_your_next_encounter"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Are_you_ready_to_change_now"/>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Do_you_consider_it_a_problem_that_the_patient_is_not_achieving_target_A1C"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Does_it_cause_you_concern_that_patient&apos;s_A1C_is_high"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Does_it_cause_you_distress"/>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Exercise_prevents_me_from_spending_time_with_my_friends"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Exercise_puts_an_extra_burden_on_my_significant_other"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Exercising_puts_me_in_a_better_mood_for_the_rest_of_the_day"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Height"/>
+        <Class IRI="#Clinical_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_A1C_less_than_equal_to_6.5_when_the_patient_has_multiple_comorbidities"/>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_has_a_history_not_following_your_past_recommendations"/>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_is_distressed_by_somehing_else"/>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_lacks_motivation"/>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_less_equal_to_less_than_6.5_when_you_are_pressed_for_time_in_your_clinic"/>
+        <Class IRI="#Provider_Self_Efficacy_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#How_confident_are_you_that_physical_activity_will_improve_your_diabetes_control"/>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire_for_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#How_many_times_will_you_work_on_yoru_goal_each_day"/>
+        <Class IRI="#Reminder_Schedule"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_am_afraid_I_might_injure_myself_or_have_a_heart_attack"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_am_embarrased_about_how_will_I_look_when_I_exercise_with_others"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_am_getting_older_too_much_exercise_can_be_risky"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_am_just_tired_after_work_to_get_any_exercise"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_am_not_good_enough_at_any_physical_activity_to_make_it_fun"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_am_too_tired_during_the_week_and_I_need_the_weekened_to_catch_up_on_my_rest"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_do_not_get_enough_sleep_as_it_is._I_just_couldn&apos;t_get_up_early_or_stay_up_late_to_get_some_exercise"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_don&apos;t_get_enough_exercise_because_I_have_never_learned_the_skills_for_any_sort"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_don&apos;t_have_access_to_jogging_trails,_swimming_pools,_bike_paths_etc."/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_feel_uncomfortable_or_embarrased_in_exercise_clothes"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_have_been_thinking_about_getting_more_exercise_but_I_just_can&apos;t_seem_to_get_started"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_know_of_too_many_people_who_have_hurt_themselves_by_overdoing_it_with_exercise"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_really_can&apos;t_see_learning_a_new_sport_at_my_age"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_want_to_get_more_exercise_but_I_just_can&apos;t_seem_to_make_myself_stick_to_anything"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_would_feel_embarrassed_if_people_saw_me_exercising"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_would_feel_less_stressed_if_I_exercised_regularly"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_would_feel_more_comfortable_with_my_body_if_exercised_regularly"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#I_would_have_more_energy_for_my_family_and_friends_if_I_exercise_regularly"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#If_we_had_exercise_facilities_and_showers_at_work_then_I_would_be_more_likely_to_exercise"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Is_behaviour_a_problem"/>
+        <Class IRI="#Patient_Readiness_Assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#It_is_easier_for_me_to_find_excuses_not_to_exercise_than_to_go_out_to_do_something"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#It_is_just_too_expensive._You_have_to_take_a_class_or_join_a_club_or_buy_the_right_equipment"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Measurable_step"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#My_day_is_so_busy_now_I_just_don&apos;t_think_I_can_make_the_time_to_include_physical_activity_in_my_regular_schedule"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#My_free_times_during_the_day_are_too_short_to_include_exercise"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#My_usual_social_activities_with_family_or_friends_do_not_include_physical_activity"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Non_of_my_family_members_or_friends_like_to_do_anything_active_so_I_don&apos;t_have_a_chance_to_exercise"/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_Name"/>
+        <Class IRI="#Clinical_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_will_achieve_better_control_of_blood_glucose"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_will_experience_an_improved_quality_of_life"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_will_gain_a_sense_of_achievement"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_will_have_reduce_risk_of_comorbidities"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_will_live_longer"/>
+        <Class IRI="#Provider-Readiness_Assesment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Physical_activity_takes_too_much_time_away_from_other_committments_e.g._time,_work,_family_etc."/>
+        <Class IRI="#Patient_Barrier_to_Physical_Activity_Questionnaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Realistic_step"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Regular_exercise_would_help_me_have_a_more_positive_outlook_on_life"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Specific_step"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#There_is_too_much_I_would_have_to_learn_to_exercise"/>
+        <Class IRI="#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Timely_step"/>
+        <Class IRI="#Patient_Goal_Setting"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weight"/>
+        <Class IRI="#Clinical_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#What_days_would_you_be_reminded_to_work_on_your_goal"/>
+        <Class IRI="#Reminder_Schedule"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#how_confident_are_you_that_you_can_do_the_physical_activity"/>
+        <Class IRI="#Patient_Self_Efficacy_Questionnaire_for_Physical_Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#what_times_would_you_like_to_be_reminded_to_work_on_your_goal"/>
+        <Class IRI="#Reminder_Schedule"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Are_you_interested_in_starting_or_stopping_behaviour"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Are_you_ready_to_change_now"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Does_it_cause_you_distress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Exercise_prevents_me_from_spending_time_with_my_friends"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Exercise_puts_an_extra_burden_on_my_significant_other"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Exercising_puts_me_in_a_better_mood_for_the_rest_of_the_day"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Height"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_am_afraid_I_might_injure_myself_or_have_a_heart_attack"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_am_embarrased_about_how_will_I_look_when_I_exercise_with_others"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_am_getting_older_too_much_exercise_can_be_risky"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_am_just_tired_after_work_to_get_any_exercise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_am_not_good_enough_at_any_physical_activity_to_make_it_fun"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_am_too_tired_during_the_week_and_I_need_the_weekened_to_catch_up_on_my_rest"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_do_not_get_enough_sleep_as_it_is._I_just_couldn&apos;t_get_up_early_or_stay_up_late_to_get_some_exercise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_don&apos;t_get_enough_exercise_because_I_have_never_learned_the_skills_for_any_sort"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_don&apos;t_have_access_to_jogging_trails,_swimming_pools,_bike_paths_etc."/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_feel_uncomfortable_or_embarrased_in_exercise_clothes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_have_been_thinking_about_getting_more_exercise_but_I_just_can&apos;t_seem_to_get_started"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_know_of_too_many_people_who_have_hurt_themselves_by_overdoing_it_with_exercise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_really_can&apos;t_see_learning_a_new_sport_at_my_age"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_want_to_get_more_exercise_but_I_just_can&apos;t_seem_to_make_myself_stick_to_anything"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_would_feel_embarrassed_if_people_saw_me_exercising"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_would_feel_less_stressed_if_I_exercised_regularly"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_would_feel_more_comfortable_with_my_body_if_exercised_regularly"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#I_would_have_more_energy_for_my_family_and_friends_if_I_exercise_regularly"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#If_we_had_exercise_facilities_and_showers_at_work_then_I_would_be_more_likely_to_exercise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Is_behaviour_a_problem"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#It_is_easier_for_me_to_find_excuses_not_to_exercise_than_to_go_out_to_do_something"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#It_is_just_too_expensive._You_have_to_take_a_class_or_join_a_club_or_buy_the_right_equipment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#My_day_is_so_busy_now_I_just_don&apos;t_think_I_can_make_the_time_to_include_physical_activity_in_my_regular_schedule"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#My_free_times_during_the_day_are_too_short_to_include_exercise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#My_usual_social_activities_with_family_or_friends_do_not_include_physical_activity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Non_of_my_family_members_or_friends_like_to_do_anything_active_so_I_don&apos;t_have_a_chance_to_exercise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Patient_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Physical_activity_takes_too_much_time_away_from_other_committments_e.g._time,_work,_family_etc."/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Regular_exercise_would_help_me_have_a_more_positive_outlook_on_life"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#There_is_too_much_I_would_have_to_learn_to_exercise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weight"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#1.2_mmol_per_L_or_more</IRI>
+        <Literal datatypeIRI="&xsd;string">This individual belong to Class HDL. This is a desirable value 
+Source: www.patient.co.uk/health/cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#150-199_mg-per_dl_i.e.-borderline_high</IRI>
+        <Literal datatypeIRI="&xsd;string">Fasting level
+Source: MedlinePlus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#200-499_mg_per_dl_i.e._high</IRI>
+        <Literal datatypeIRI="&xsd;string">Fasting level
+Source: Medline Plus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#3.3_mmol_per_L_or_less</IRI>
+        <Literal datatypeIRI="&xsd;string">This is individual is for LDL. This value is desirable 
+Source: www.patient.co.uk/health/cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#4.5_or_less</IRI>
+        <Literal datatypeIRI="&xsd;string">This value of cholestrol ratio is desirable
+Source: www.patient.co.uk/health/cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#500_mg_per_dl_or_more_i.e._very_high</IRI>
+        <Literal datatypeIRI="&xsd;string">Fasting Level
+Source: MedlinePlus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Add_physical_activity_to_your_daily_routine</IRI>
+        <Literal datatypeIRI="&xsd;string">Add physical activity to your daily routine. For example, walk or ride your bike to work or shopping, organize school activities around physical activity, walk the dog, exercise while you watch TV, park further away from your destination, etc. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ambivalent_for_physical_activity_and_cons_are_more_than_pros</IRI>
+        <Literal datatypeIRI="&xsd;string">Your readiness assessment indicated that you are unsure about changes to your physical activity at this time. You also indicated that there are more reasons to stay the same than to change.
+
+Given this information, you are advised to proceed with caution and set a modest goal that you are confident you will be able to do. 
+
+Modify your goals to make it a &apos;first step&apos; that you are confident you can achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ambivalent_for_physical_activity_and_pro_are_more_than_cons</IRI>
+        <Literal datatypeIRI="&xsd;string">Your readiness assessment indicated that you are unsure about changes to your physical activity at this time. However, you indicated that there are more reasons to change than to stay the same. 
+
+Given this information, you are advised to proceed with caution and set a modest goal that you are confident you will be able to do. 
+
+Modify your goal to make it &apos;first step&apos; that you are confident you can achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Are_you_interested_in_recommending_that_patient_achieve_the_target_A1C</IRI>
+        <Literal datatypeIRI="&xsd;string">Statement no. 3
+
+
+Yes, No, Maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Are_you_interested_in_starting_or_stopping_behaviour</IRI>
+        <Literal datatypeIRI="&xsd;string">Statement 3
+
+yes, no, maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Are_you_prepared_to_recommend_that_patient_achieve_target_A1C_in_your_next_encounter</IRI>
+        <Literal datatypeIRI="&xsd;string">Statement No. 4
+
+Yes, No, Maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Are_you_ready_to_change_now</IRI>
+        <Literal datatypeIRI="&xsd;string">Statement 4
+
+Yes No Maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BMI_between_18.50-24.99_i.e._patient_is_of_normal_weight</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: WHO International classification of adult underweight, overweight and obesity based in BMI. BMI values are age independent and are same for both the sexes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BMI_between_30.00-34.99_i.e._patient_is_class_I_obese</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: WHO International classification of adult underweight, overweight and obesity based in BMI. BMI values are age independent and are same for both the sexes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BMI_between_35.00-39.99_i.e._patient_is_class_II_obese</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: WHO International classification of adult underweight, overweight and obesity based in BMI. BMI values are age independent and are same for both the sexes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BMI_is_more_than_equal_to_25.00_and_less_than_equal_to_29.99_i.e._patient_is_pre-obese</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: WHO International classification of adult underweight, overweight and obesity based in BMI. BMI values are age independent and are same for both the sexes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BMI_less_than_18.50_i.e._patient_is_underweight</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: WHO International Classification of adult underweight, overweight and obesity according to BMI. BMI values are age independent and are same for both sexes. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BMI_more_than_equal_to_40.00_i.e._patient_is_class_III_obese</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: WHO International classification of adult underweight, overweight and obesity based in BMI. BMI values are age independent and are same for both the sexes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Change_Then_to_Stay__the_Same</IRI>
+        <Literal datatypeIRI="&xsd;string">This is an advantage when setting goals for health behaviour change. However, there will always be advantages to staying the same. This is why change is hard. 
+
+Setting first-step goals that are achievable will allow you to stay the same as much as possible, while working towards changes that will impact your health. 
+
+Next we will identify barriers to change before setting a goal for DWISE to help you achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Change_Then_to_Stay__the_Same</IRI>
+        <Literal datatypeIRI="&xsd;string">Your responses indicate that you may have more important reasons to change than to stay the same</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clinical_Parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">These are all the parameters that make a clinical profile. These are part of Provider Tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clinical_Profile</IRI>
+        <Literal datatypeIRI="&xsd;string">This is patient&apos;s clinical Profile that is collected on the Provider tool for the personalization of CPG based recommendations </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Convince_yourself_that_physical_activity_will_increase_your_energy_level</IRI>
+        <Literal datatypeIRI="&xsd;string">Convince yourself that if you give it a chance, physical activity will increase your energy level; then, try it. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Develop_new_friendships_with_physically_active_people</IRI>
+        <Literal datatypeIRI="&xsd;string">Develope new friendships with physically active people. Join a group such as the YMCA or a hiking club</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Do_you_consider_it_a_problem_that_the_patient_is_not_achieving_target_A1C</IRI>
+        <Literal datatypeIRI="&xsd;string">Staement No. 1
+
+
+Yes, No, Maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Does_it_cause_you_concern_that_patient&apos;s_A1C_is_high</IRI>
+        <Literal datatypeIRI="&xsd;string">Statement no. 2
+
+
+Yes, No, Maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Does_it_cause_you_distress</IRI>
+        <Literal datatypeIRI="&xsd;string">Statement 2
+
+Yes, No, Maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exercise_prevents_me_from_spending_time_with_my_friends</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exercise_puts_an_extra_burden_on_my_significant_other</IRI>
+        <Literal datatypeIRI="&xsd;string">Sliders bars from Not Important to Important</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exercising_puts_me_in_a_better_mood_for_the_rest_of_the_day</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Explain_your_interest_in__physical_activity_to_friends_and_family</IRI>
+        <Literal datatypeIRI="&xsd;string">Explain your interest in physical activity to your friends and family. Ask them yo support your efforts. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Goal_Setting</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#High_self_efficacy_for_physical_activity</IRI>
+        <Literal datatypeIRI="&xsd;string">Continue with activities to meet the goal </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#How_confident_are_you_in_recommending_that_your_patient_should_target_A1C_less_than_equal_to_6.5_when_the_patient_has_multiple_comorbidities</IRI>
+        <Literal datatypeIRI="&xsd;string">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_has_a_history_not_following_your_past_recommendations</IRI>
+        <Literal datatypeIRI="&xsd;string">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_is_distressed_by_somehing_else</IRI>
+        <Literal datatypeIRI="&xsd;string">4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_equal_to_less_than_6.5_when_the_patient_lacks_motivation</IRI>
+        <Literal datatypeIRI="&xsd;string">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#How_confident_are_you_in_recommending_that_your_patient_should_target_an_A1C_less_equal_to_less_than_6.5_when_you_are_pressed_for_time_in_your_clinic</IRI>
+        <Literal datatypeIRI="&xsd;string">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_am_afraid_I_might_injure_myself_or_have_a_heart_attack</IRI>
+        <Literal datatypeIRI="&xsd;string">19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_am_embarrased_about_how_will_I_look_when_I_exercise_with_others</IRI>
+        <Literal datatypeIRI="&xsd;string">9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_am_getting_older_too_much_exercise_can_be_risky</IRI>
+        <Literal datatypeIRI="&xsd;string">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_am_just_tired_after_work_to_get_any_exercise</IRI>
+        <Literal datatypeIRI="&xsd;string">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_am_not_good_enough_at_any_physical_activity_to_make_it_fun</IRI>
+        <Literal datatypeIRI="&xsd;string">20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_am_too_tired_during_the_week_and_I_need_the_weekened_to_catch_up_on_my_rest</IRI>
+        <Literal datatypeIRI="&xsd;string">18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_do_not_get_enough_sleep_as_it_is._I_just_couldn&apos;t_get_up_early_or_stay_up_late_to_get_some_exercise</IRI>
+        <Literal datatypeIRI="&xsd;string">10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_don&apos;t_get_enough_exercise_because_I_have_never_learned_the_skills_for_any_sort</IRI>
+        <Literal datatypeIRI="&xsd;string">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_don&apos;t_have_access_to_jogging_trails,_swimming_pools,_bike_paths_etc.</IRI>
+        <Literal datatypeIRI="&xsd;string">7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_feel_uncomfortable_or_embarrased_in_exercise_clothes</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_have_been_thinking_about_getting_more_exercise_but_I_just_can&apos;t_seem_to_get_started</IRI>
+        <Literal datatypeIRI="&xsd;string">4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_know_of_too_many_people_who_have_hurt_themselves_by_overdoing_it_with_exercise</IRI>
+        <Literal datatypeIRI="&xsd;string">12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_really_can&apos;t_see_learning_a_new_sport_at_my_age</IRI>
+        <Literal datatypeIRI="&xsd;string">13</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_want_to_get_more_exercise_but_I_just_can&apos;t_seem_to_make_myself_stick_to_anything</IRI>
+        <Literal datatypeIRI="&xsd;string">17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_would_feel_embarrassed_if_people_saw_me_exercising</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_would_feel_less_stressed_if_I_exercised_regularly</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_would_feel_more_comfortable_with_my_body_if_exercised_regularly</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#I_would_have_more_energy_for_my_family_and_friends_if_I_exercise_regularly</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Identify_available_time_slots</IRI>
+        <Literal datatypeIRI="&xsd;string">Identify available time slots. Monitor your daily activities for one week. Identify at least three 30 minutes time slots you coulc use for physical activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#If_we_had_exercise_facilities_and_showers_at_work_then_I_would_be_more_likely_to_exercise</IRI>
+        <Literal datatypeIRI="&xsd;string">21</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Invite_a_friend_to_exercise_with_you_on_regular_basis</IRI>
+        <Literal datatypeIRI="&xsd;string">Invite a friend to exercise with you on a regular basis and write it on both your calendars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Invite_friends_and_family_to_exercise_with_you</IRI>
+        <Literal datatypeIRI="&xsd;string">Invite friends and family members to exercise with you. Plan social activities involving exercises</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Is_behaviour_a_problem</IRI>
+        <Literal datatypeIRI="&xsd;string">Statement 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Is_behaviour_a_problem</IRI>
+        <Literal datatypeIRI="&xsd;string">Yes know maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#It_is_easier_for_me_to_find_excuses_not_to_exercise_than_to_go_out_to_do_something</IRI>
+        <Literal datatypeIRI="&xsd;string">11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#It_is_just_too_expensive._You_have_to_take_a_class_or_join_a_club_or_buy_the_right_equipment</IRI>
+        <Literal datatypeIRI="&xsd;string">14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Learn_how_to_exercise_appropriately</IRI>
+        <Literal datatypeIRI="&xsd;string">Learn how to exercise appropriately considering your age, fitness level, and health status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Low_self_efficacy_for_physical_activity</IRI>
+        <Literal datatypeIRI="&xsd;string">If you are not feeling confident about your goal, it may be valuable to modify it to make it more realistic. Have another look and see what you can modify about your goal to increase your confidence that you can achieve it. 
+
+If you don&apos;t feel that you goal will improve diabetes control it may be hard to stay motivated. Modify your goal to make sure you feel that you are making a difference. If you would like you can visit the recommended  websites to learn about what types of exercise are most valuable, and how can they impact you health. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Make_time_for_physical_activity</IRI>
+        <Literal datatypeIRI="&xsd;string">Make time for physcial activity. For example, walk, jog, or swim during your lunch hour, or take fitness breaks instead of coffee breaks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Moderate_self_efficacy_for_physical_activity</IRI>
+        <Literal datatypeIRI="&xsd;string">Continue with activities to meet the goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#My_day_is_so_busy_now_I_just_don&apos;t_think_I_can_make_the_time_to_include_physical_activity_in_my_regular_schedule</IRI>
+        <Literal datatypeIRI="&xsd;string">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#My_free_times_during_the_day_are_too_short_to_include_exercise</IRI>
+        <Literal datatypeIRI="&xsd;string">15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#My_usual_social_activities_with_family_or_friends_do_not_include_physical_activity</IRI>
+        <Literal datatypeIRI="&xsd;string">16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Negative_Target_Behavior_for_Patient</IRI>
+        <Literal datatypeIRI="&xsd;string">Behavior that should be stopped</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non_of_my_family_members_or_friends_like_to_do_anything_active_so_I_don&apos;t_have_a_chance_to_exercise</IRI>
+        <Literal datatypeIRI="&xsd;string">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Not_ready_for_physical_activity_and_cons_are_more_than_pros</IRI>
+        <Literal datatypeIRI="&xsd;string">Your readiness assessment indicate that you are not ready to make changes to your physical activity right now. You also indicated that there are more reasons to stay the same than to change.
+
+It may not be a realistic time to make changes to your physical activity. However, if you wish to proceed with the use of DWISE it is important to set an easy &apos;first step&apos; goal that you are confident you can do.
+
+Modify your goals to make it an easy &apos;first step&apos; that you are very confident you will be able to achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Not_ready_for_physical_activity_and_pros_are_more_than_cons</IRI>
+        <Literal datatypeIRI="&xsd;string">Your readiness assessment indicated that you may not be ready to make changes to your physical activity right now. However, you indicated that there are more reasons to change than to stay the same. 
+
+It may not be a realistic time to make changes to your physical activity. However if you wish to proceed with the use of DWISE it is important to set an easy &apos;first step&apos; goal that you are confident you can do.
+
+Modify your goal to make it an easy &apos;first step&apos; that you are very confident you will be able to achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Barrier_to_Physical_Activity_Questionnaire</IRI>
+        <Literal datatypeIRI="&xsd;string">Scoring:
+
+(1)____ + (8)____ + (15)______ = ________ (Lack of time)
+(2) ____ + (9)____ +(16)_______=________(Social Influence)
+(3)_____+(10)____+(17)_______=________(Lack of energy)
+(4)_____+(11)_____+(18)_______=_______(Lack of motivation)
+(5)______+(12)____+(19)_______=_______(Fear of Injury)
+(6)_____+(13)____+(20)_______=_______(Lack of skill)
+(7)_____+(14)_____+(21)______=________(Lack of resources)
+
+A score of 5 in any are indicates that this is an important barrier to overcome - Feedback will be given accordingly. 
+
+If none score 5 or more 
+None of your scores were high enough to identify a problem area, however it may be valuable to review the list of the potential barriers and solutions and select any that you feel are relevant to you. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Barrier_to_Physical_Activity_Questionnaire</IRI>
+        <Literal datatypeIRI="&xsd;string">This is a likert scale that ranges:
+0 - Very Unlikely
+1 - Somewhat Unlikely
+2 - Somewhat Likely
+3 - Very Likely 
+
+Source of the Scale:
+
+http://www/health.havard.edu/newsletters/Harvard_Heart_Letter/2012/January/what-are-your-barriers-to-exercise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Barrier_to_Physical_Activity_Questionnaire</IRI>
+        <Literal datatypeIRI="&xsd;string">When planning for change, it can be valuable to think ahead and plan for any challenges or barriers you may encounter on the way. 
+Reflect on the following list of barriers and rate how likely you are to say each of the statements. This will help you identify areas of concerns, and DWISE will help you with solutions to overcome these barriers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Decisional_Balance_For_Target_Behaviour_Physical_Activity</IRI>
+        <Literal datatypeIRI="&xsd;string">Pros and Cons
+
+Thinking about the pros and cons of changing our behaviour can help us determine how ready we are to change. This information will help us decide how ambitious your goals should be. 
+How important are the following opinions in your decision to exercise or not exercise?
+Slide bar ranges from Not Important to Important 
+
+Scoring
+
+1, 3, 5, 7, 9 - Pros
+2, 4, 6, 8, 10 - Cons
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Goal_Related_to_Physical_Activity</IRI>
+        <Literal datatypeIRI="&xsd;string">
+Enter your action-oriented goal in the box below, and you will be able to modify it as you learn about other parts of SMART goal setting: 
+
+
+
+Goal:_____________________</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Goal_Setting</IRI>
+        <Literal datatypeIRI="&xsd;string">Goal setting is a valuable way to change your health behaviours. However, more challenging goals not necessarily better. By setting SMART goals, you are more likely o achieve and sustain the behaviour. Think about specific behaviour you defined, and what goal can help you change behaviour. As you learn about setting SMART goals, set a goal and modify it to include each step. 
+
+
+A - Action Oriented 
+First, make sure your goal is action-oriented. This means something you will do rather than something you will achieve. For example, an action-oriented goal may be to walk or jog a certain number of minuted each week, rather than a desired weight loss target or A1C level. 
+
+S - Specific
+Now make your goal as specific as possible. What exactly will you do? For how long? With whom? What are your barriers and how will you overcome them? An example of a specific goal might look like this: I will walk to get the mail after supper with my wife every week night except Friday. If I&apos;m too busy one day, I&apos;ll make it up on the weekend. 
+
+M - Measurable
+It is important for your goal to be measurable so you can know if it is met, and if it should increase or decrease to remain achievable while having the most positive impact on your health. How will you know when you have achieved your goal?  Write your measurements in to your goal. 
+
+R - Relevant 
+Make sure your goal is relevant to you and your personal health needs. For example, setting a goal to go lift weights at the gym with a friend may not be the most realistic or important behaviour to focus on if you have never gone to the gym. 
+
+T - Timely
+
+Start by setting a goal that focuses on a behaviour or action, rather than an outcome. This means, something that you will do to achieve an outcome, not the outcome itself. 
+ 
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Readiness_Assessment</IRI>
+        <Literal datatypeIRI="&xsd;string">yes, no, maybe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_Self_Efficacy_Questionnaire_for_Physical_Activity</IRI>
+        <Literal datatypeIRI="&xsd;string">Now that you have had time to consider your level of readiness, pros and cons, and barriers to change, please answer the following questions:</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_is_Ambivalent</IRI>
+        <Literal datatypeIRI="&xsd;string">Your answers indicate that you are ambivalent about change. Before moving ahead with setting a goal, take a moment to think about the pros and cons of changing. The next exercise will help you reflect on your personal reasons for changing X behaviour. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_is_Not_Ready</IRI>
+        <Literal datatypeIRI="&xsd;string">If you don;t feel that X behaviour is a problem, you may be less likely to make a permanent change. Please take a moment to weigh the pros and cons of change, or you may choose to redefine your target behaviour to address something that is more problematic for you. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_is_Ready</IRI>
+        <Literal datatypeIRI="&xsd;string">Your answers indicate that you are ready to move ahead with planning your change. It will still be helpful to evaluate the pros and cons of changing to reflect on your personal reasons for changing X behaviour. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_will_achieve_better_control_of_blood_glucose</IRI>
+        <Literal datatypeIRI="&xsd;string">Pros - 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_will_experience_an_improved_quality_of_life</IRI>
+        <Literal datatypeIRI="&xsd;string">Pros - 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_will_gain_a_sense_of_achievement</IRI>
+        <Literal datatypeIRI="&xsd;string">Pros - 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_will_have_reduce_risk_of_comorbidities</IRI>
+        <Literal datatypeIRI="&xsd;string">Pros - 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_will_live_longer</IRI>
+        <Literal datatypeIRI="&xsd;string">Pros - 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Physical_activity_takes_too_much_time_away_from_other_committments_e.g._time,_work,_family_etc.</IRI>
+        <Literal datatypeIRI="&xsd;string">8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plan_ahead</IRI>
+        <Literal datatypeIRI="&xsd;string">Plan ahead. Make physical activity a regular part of your daily or weekly schedule and write it on your calendar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Positive_Target_Behavior_for_Patient</IRI>
+        <Literal datatypeIRI="&xsd;string">Behavior that should be started </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provider_Decisional_Balance</IRI>
+        <Literal datatypeIRI="&xsd;string">Evaluating the advantages and disadvantages of recommending that the patient should target an A1C 6.5% will help you critically reflect on the potential outcomes, and evaluate the overall importance of making this recommendation. Please read the following pros and cons of recommending the patient should target A1C &lt;= 6.5% and indicate how strongly you agree or disagree with each statement. Please refer to the CPG recommendation tab above for more information. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provider_has_high_self_efficacy</IRI>
+        <Literal datatypeIRI="&xsd;string">Average: 3.5-5
+
+Your results indicate that you have high self efficacy when recommending that patient achieve a target A1C &lt;= 6.5%. It is worth noting that high confidence is associated with sustained behaviour and this is an important component of a successful intervention. If you wish you can view some resources highlighting the importance of self management education or proceed to determine the best way for patient to use DWISE to achieve a target A1C &lt;= 6.5%</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provider_has_low_self_efficacy</IRI>
+        <Literal datatypeIRI="&xsd;string">Average: 1-1.5
+
+Your results indicate that your confidence (self-efficacy) in your ability to successfully recommend that patient target an A1C &lt;= 6.5% is low. It is helpful to remember that it is not your job to get the patient to change. Self-management support is about helping patients to have a clear idea about what targets are healthy. Understanding readiness to change, confidence and barriers makes behaviour change more likely. Without clear recommendations it might be harder for your patients to become ready to overcome barriers to change. DWISE is designed to help you make the best recommendation, and facilitate self-management by patient. Please take a moment to review the following information highlighting the importance of self-management education and proceed to identify the target behaviour.  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provider_has_moderate_self_efficacy</IRI>
+        <Literal datatypeIRI="&xsd;string">Average: 1.5-3.5
+
+Your results indicate that you have medium self-efficacy (confidence) when recommending that patient achieve a target A1C&lt;= 6.5%. It is reasonable to expect that there will be pros and cons to making recommendations to your patient. It is also helpful to remember that it is not your job to get the patient to change. Self management support is about helping patients to have a clear idea about what targets are healthy. Understanding readiness to change, confidence and barriers makes behaviour change more likely. Without clear recommendations it might be harder for your patients to become ready to overcome barriers to change. DWISE is designed to help you make the best recommendation and facilitate self management by patient. If you would like some further information highlighting the importance of self management education please see the resources below, or proceed to identify the target behaviour. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provider_is_Not_Ready</IRI>
+        <Literal datatypeIRI="&xsd;string">Would you like to see some of the evidence supporting a target A1C &lt;= 6.5%
+
+If No: We understand you are not ready to recommend that the patient target A1C &lt;=6.5%. However based on the clinical practice guildelines it is thought that this my result in ne
+
+If Yes: Default to key messages and recommendations. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ready_for_physical_activity_and_cons_are_more_than_pros</IRI>
+        <Literal datatypeIRI="&xsd;string">Your readiness assessment indicated that you are ready to make changes to your physical activity. However, you also indicated there are more reasons to stay the same than to change. 
+
+It is valuable to start with a &apos;first step&apos; that you are confident you can achieve and continue to built on your successes in the future. 
+
+Modify your goal so it represents a realistic &apos;first step&apos; that you are confident you can achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ready_for_physical_activity_and_pros_are_more_than_cons</IRI>
+        <Literal datatypeIRI="&xsd;string">Your readiness assessment indicated that you are ready to make changes to your physical activity. You also indicated that there are more reasons to change than to stay the same. 
+
+It is valuable to start with a &apos;first step&apos; that you are confident you can achieve and continue to build on your successes in the future. 
+
+Modify your goal so it represents a realistic &apos;first step&apos; that you are confident you can achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recommendation_1_for_target_A1C_less_than_equal_to_6.5_percent</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recommendation_1_for_target_A1C_less_than_equal_to_6.5_percent</IRI>
+        <Literal datatypeIRI="&xsd;string">An A1C &lt;= 6.5% may be targeted in some patients with type 2 diabetes to futher lower risk of neuropathy {Grade A, Level 1] and retinopathy [Grade A Level 1] - but this may be balanced against the risk of hypoglycemis [Grade A, Level 1]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recommendation_2_for_target_A1C-7.1-8.5_percent</IRI>
+        <Literal datatypeIRI="&xsd;string">Less stringent A1C targets (7.1%-8.5% in most cases) may be approporiate in patient with type 1 ot type 2 diabetes with any of the following [Grade D, consensus]
+a. Limited life expectancy
+b. High level of functional dependency 
+c. Extensive coronary disease at high risk of ischemic events
+d. Multiple comorbidities 
+e. History of of recurrent severe hypoglycemia
+f. Hypoglycemia unawareness
+g. Longstanding diabetes for whom it is difficult to achieve an A1C &lt;7.0% despite effective doses of multiple antihyperglycemic agents, including intensified basal-bolus insulin therapy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regular_exercise_would_help_me_have_a_more_positive_outlook_on_life</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Schedule_physical_activity_when_you_feel_energetic</IRI>
+        <Literal datatypeIRI="&xsd;string">Schedule physical activity for times in the day or week when you feel energetic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Select_acitivities_requiring_minimal_time</IRI>
+        <Literal datatypeIRI="&xsd;string">Select activities requiring minimal time, such as walking, jogging, or stair climbing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stay_the_Same_Then_to_Change</IRI>
+        <Literal datatypeIRI="&xsd;string">There are always advantages to staying the same. This is why change is hard. It is important to consider this when setting goals for health behaviour change. 
+
+Setting first-step goals that are achievable will allow you to stay the same as much as possible, while working towards changes that will impact your health.
+
+Next we will identify barriers to change before setting a goal for DWISE to help you achieve. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stay_the_Same_Then_to_Change</IRI>
+        <Literal datatypeIRI="&xsd;string">Your responses indicate that you may have more important reasons to stay the same than to change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Strategies_to_Overcome_Barriers_to_Start_Physical_Activity</IRI>
+        <Literal datatypeIRI="&xsd;string">These questions help you identify common areas that may be limiting your ability to exercise. Take a moment to review some suggestions for overcoming the personal barriers you have identified. 
+
+After you have considered some potential strategies to overcome each barrier, click on the strategy that you are more confident in.
+
+If you would like to read more about overcoming other barriers, click on thr list of other potential barriers at the bottom of the page. 
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#There_is_too_much_I_would_have_to_learn_to_exercise</IRI>
+        <Literal datatypeIRI="&xsd;string">Slider bars from Not Important to Important</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#extensive_coronary_artery_disease_at_high_risk_of_ischemic_events</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: CDA GL-2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_provider_readiness_assessment</IRI>
+        <Literal datatypeIRI="&xsd;string">Evaluating advantages and disadvantages of recommending that the patient should target A1C &lt;= 6.5% will help you critically reflect on the potential outcomes and evaluate the overall importance of making this recommendation. Please read the following pros and cons of recommending that the patient should target an A1C &lt;= 6.5% and indicate how strongly you agree or disagree with each statement. Please refer to CPG recommendation tab above for more information. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_reminder_schedule_setting</IRI>
+        <Literal datatypeIRI="&xsd;string">Congratulations! you have set a SMART goal to work towards achieving an A1C &lt;= 6.5%.
+
+The last step is to set a schedule for reminders to be sent to you through text messages. After you recieve a reminder, you will be able to complete your goal behaviour, and make notes if you wish. 
+
+This will help you reflect on your goal in the future and modify it to make it more or less challenging.
+
+Start by thinking about how often you will be working on your goal, and when you want to recieve prompts. 
+
+Do you want reminders every day, only on weekdays, or maybe only on certain days of the week? What time, or times of day will be best to remind you to work on your goals? Use the drop down menus to make a schedule that suits your goal. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#high_level_of_functional_dependency</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: CDA GL-2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#history_of_recurrent_severe_hypoglycemia</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: CDA GL-2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hypoglycemia_unawareness</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: CDA GL-2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#less_than_1.2_mmol_per_L</IRI>
+        <Literal datatypeIRI="&xsd;string">This individual belong to class HDL. This value is undesirable 
+Source: www.patient.co.uk/health/cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#less_than_150_mg_per_dl_i.e._normal</IRI>
+        <Literal datatypeIRI="&xsd;string">Fasting level. 
+Source: MedlinePlus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#limited_life_expectancy</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: Canadian Diabetes Association CPG-2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#longstanding_diabetes_for_whom_it_is_difficult_to_achieve_A1C_less_than_7.0_despite_effective_doses_of_multiple_antihyperglycemic_agents_including_intensified_basal-bolus_insulin_therapy</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: CDA GL-2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#more_than_3.3_mmol_per_L</IRI>
+        <Literal datatypeIRI="&xsd;string">This value of LDL is undesirable. 
+Source: www.patient.co.uk/health/cholesterol </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#more_than_4.5</IRI>
+        <Literal datatypeIRI="&xsd;string">This value of cholesterol ratio is undesirable
+Source: www.patient.co.uk/health/cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#multiple_comorbidities</IRI>
+        <Literal datatypeIRI="&xsd;string">Source: CDA GL-2012</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
